@@ -19,7 +19,7 @@ function insert(element) {
 		console.log('       this is inside for loop ' + nums );
 		if ( element > nums[i]) {
 			this.dataStore.splice(0,1);
-			console.log('After ' + nums);
+			console.log('after ' + nums);
 		break; }
 		
 	}	
@@ -33,4 +33,4 @@ var names = new List();
 names.insert(40);
 names.insert(35);
 names.insert(60);
-console.log(names.insert(1));
+console.log('This is the final list ' + names.insert(1));
