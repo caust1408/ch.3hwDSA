@@ -20,15 +20,12 @@ function insert(element) {
 		if ( element > nums[i]) {
 			this.dataStore.splice(0,1);
 			console.log('After ' + nums);
-		}
+		break; }
 		
-	}
-		
-		
-	
+	}	
 	//console.log(element);
 	//console.log(dataStore);
-	return this.dataStore;
+	 return this.dataStore;
 }
 
 
